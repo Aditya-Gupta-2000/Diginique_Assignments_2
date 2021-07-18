@@ -1,0 +1,6 @@
+#21.Use of Keyword : Raise
+
+x = "hello"
+
+if not type(x) is int:
+  Raise: print("Only integers are allowed")
