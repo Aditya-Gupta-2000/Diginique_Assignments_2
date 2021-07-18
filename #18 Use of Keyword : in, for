@@ -1,0 +1,11 @@
+#18.Use of Keyword : in
+#19.Use of Keyword : for
+
+brand = ['LG','sony','lava','nikon','apple']
+for s in brand:
+  print(s,end=" ")
+
+q=0
+for i in range(1,3):
+  q+=i
+print("\n",q)
