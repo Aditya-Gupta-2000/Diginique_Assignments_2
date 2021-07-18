@@ -1,0 +1,8 @@
+#1.Use of Keyword : False == 0
+
+x=1>6
+print(x)
+y=False or False
+print(y)
+z=(True+True)>3
+print(z)
