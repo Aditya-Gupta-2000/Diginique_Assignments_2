@@ -1,0 +1,7 @@
+#32.Use of Keywords : yield
+def square_generator(x, y):
+   for i in range(x, y):
+      yield i*i
+my_gen = square_generator(5, 10)
+for sq in my_gen:
+   print(sq)
