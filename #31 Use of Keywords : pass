@@ -1,0 +1,5 @@
+#31.Use of Keywords : pass
+
+def sample_function():
+   pass #Not implemented now
+sample_function()
