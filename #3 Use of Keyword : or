@@ -1,0 +1,14 @@
+#3.Use of Keyword : or 
+
+x = 3 or 4
+y = 4 or 3
+print(x)
+print(y)
+z = False or True
+print(z)
+k = 0 or 1
+print(k)
+i = 0 or 0
+print(i)
+j = (True or False) and (False or False)
+print('{0},{1}'.format(j,j+3) )
