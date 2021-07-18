@@ -1,0 +1,12 @@
+#6.Use of Keyword : is (An empty list or dictionary is equal to another empty one. But they are
+not identical objects as they are located separately in memory. This is because list and dictionary are mutable)
+
+x=True is False
+print(x)
+do=True
+y= do is do
+print(y)
+k=[] is []
+print(k)
+i={} is {}
+i
