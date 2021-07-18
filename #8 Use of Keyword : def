@@ -1,0 +1,10 @@
+#8.Use of Keyword : def
+
+def greet():
+  print("hello")
+greet()  
+
+def inc(x,y):
+  c=x+y
+  print(c)
+inc(4,5)  
