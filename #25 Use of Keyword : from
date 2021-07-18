@@ -1,0 +1,13 @@
+#25.Use of Keyword : from
+
+from datetime import time
+x = time(hour=7)
+print(x)
+
+from math import sqrt
+y = sqrt(9)
+print(y)
+
+from datetime import date
+d=date.today()
+print("Today's date: ", d)
