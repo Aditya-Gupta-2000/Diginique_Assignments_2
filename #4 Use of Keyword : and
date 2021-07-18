@@ -1,0 +1,13 @@
+#4.Use of Keyword : and
+
+x = 3 and 4
+y = 4 and 3
+print('x =', x,'\t','y =', y) 
+z = False and True
+print(z)
+k = 0 and 1
+print(k)
+i = 0 or 0
+print(i)
+j = (True or False) and (False or False)
+print('{0},{1}'.format(j,j+3) )
