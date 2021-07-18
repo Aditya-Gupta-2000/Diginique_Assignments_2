@@ -1,0 +1,26 @@
+#9.Use of Keyword : if
+#10.Use of Keyword : else
+#11.Use of Keyword : elif
+
+def comp(x,y):
+  if(x<y):
+   print("x<y")
+  elif(x>y):
+   print("x>y")
+  else:
+    print("equal")  
+comp(4,5)
+comp(5,1)
+comp(1,1)
+print("\n") 
+def if_example(a):
+    if a == 1:
+        print('One')
+    elif a == 2:
+        print('Two')
+    else:
+        print('Something else')
+
+if_example(2)
+if_example(4)
+if_example(1)
