@@ -1,0 +1,8 @@
+#2.Use of Keyword : True == 1
+
+x=1<6
+print(x)
+y=True or False
+print(y)
+z=(True+False)==1
+print(z)
