@@ -1,0 +1,9 @@
+#13.Use of Keyword : as
+#14.Use of Keyword : import
+
+import math as m 
+a=m.pi
+print(a)
+
+import calendar as c
+print(c.month_name[5])
