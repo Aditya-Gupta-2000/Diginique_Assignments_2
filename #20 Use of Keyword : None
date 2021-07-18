@@ -1,0 +1,18 @@
+#20.Use of Keyword : None
+
+None == 0
+None == []
+i = None == False
+print(i)
+x = None
+y = None
+k = x == y
+print(k)
+
+def a_void_function():
+    a = 1
+    b = 2
+    c = a + b
+
+x = a_void_function()
+print(x)
