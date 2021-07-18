@@ -1,0 +1,19 @@
+#15.Use of Keyword : try
+#16.Use of Keyword : except
+#17.Use of Keyword : finally
+
+x = int(input("Number 1: "))
+y = int(input("Number 2: "))
+
+try:
+  print(x/y)
+except Exception:print('Oppsi Something else typed!! Went Wrong!!')
+
+finally:print("well tried!")
+
+x = int(input("Number 1: "))
+y = int(input("Number 2: "))
+try:
+  a=x/y
+  print(a)
+except Exception: print("Something went wrong")
