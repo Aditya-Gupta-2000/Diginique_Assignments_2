@@ -1,0 +1,7 @@
+#26.Use of Keyword : global
+
+def function():
+  global x
+  x = "hello"
+function()
+print(x)
