@@ -1,0 +1,9 @@
+#5.Use of Keyword : not
+
+x=(not False)+1
+print(x)
+y=(x+(not False))
+print(y)
+p=not 3<4
+print(p)
+print(p+2)
