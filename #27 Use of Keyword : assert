@@ -1,0 +1,4 @@
+#27.Use of Keyword : assert
+
+h="hello"
+assert h == "hello"
