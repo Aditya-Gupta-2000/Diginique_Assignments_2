@@ -1,0 +1,5 @@
+#7.Use of Keyword : del
+
+a=6
+del a
+print(a)
