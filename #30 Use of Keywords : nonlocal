@@ -1,0 +1,10 @@
+#30.Use of Keywords : nonlocal
+def outer():
+   x = 50
+   print('x from outer: ' + str(x))
+   def inner():
+      nonlocal x
+      x = 100
+      print('x from inner: ' + str(x))
+   inner()
+outer()
